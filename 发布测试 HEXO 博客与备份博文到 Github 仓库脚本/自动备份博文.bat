@@ -35,4 +35,4 @@ git commit -m "v%yyyy%%mm%%dd%"
 git push origin master
 
 rem pause>nul 进行从定向，所有的提示都不显示。
-pause
+timeout /t 3
